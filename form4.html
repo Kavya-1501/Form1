@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(243, 219, 223);
+        }
+    </style>
+</head>
+<body>
+    <table>
+    <form>
+        <center>
+        <h2>Student registration form</h2>
+        </center>
+        <tr>
+            <td>
+                <label for="roll">Roll no:</label>
+            </td>
+            <td>
+                <input type="text" id="roll" name="roll" size="46" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="name">Student name:</label>
+            </td>
+            <td>
+                <input type="text" id="name" name="name" placeholder="First Name:" >-<input type="text" id="name" name="name"
+        placeholder="Last Name:"required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="name">Father's name:</label>
+            </td>
+            <td>
+                <input type="text" id="name" name="name" size="46" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="date">Date of birth:</label>
+            </td>
+            <td>
+            <input type="text" id="date" name="date" size="9" placeholder="Day:" required>-<input type="text" id="month" name="month" size="9" placeholder="Month:" required>-<input type="year" id="year" name="year" size="9" placeholder="Year:" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="text">Mobile no.:</label>
+            </td>
+            <td>
+                <input type="no" id="no" name="no" size="1" placeholder="+91" required>-<input type="text" id="no" name="no" size="39" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email id:</label>
+            </td>
+            <td>
+                <input type="email" id="email" name="email" size="46">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="pwd">Password:</label>
+            </td>
+            <td>
+            <input type="password" id="pwd" name="pwd" size="46">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gender">Gender:</label>
+            </td>
+            <td>
+                <input type="radio" id="radio" name="gender">
+                <label>Male</label>
+                 <input type="radio" id="radio" name="gender">
+                <label>Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="department">Department:</label>
+            </td>
+            <td>
+                <input type="checkbox" name="department">
+                <label>CSE</label>
+                <input type="checkbox" name="department">
+                <label>IT</label>
+                <input type="checkbox" name="department">
+                <label>ECE</label>
+                <input type="checkbox" name="department">
+                <label>Civil</label>
+                <input type="checkbox" name="department">
+                <label>Mech</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="course">Course:</label>
+            </td>
+            <td>
+                <select name="course" id="course">
+                <option value="----------Select Current Courses----------">----------Select Current Courses----------</option>
+                <option value="Btech">Btech</option>
+                <option value="Mtech">Mtech</option>
+                <option value="MBA">MBA</option>
+                <option value="BBA">BBA</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label for="student-photo">Student photo:</label>
+            </td>
+            <td>
+                <input type="file" id="student-photo" name="student-photo"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="city">City:</label>
+            </td>
+            <td>
+                <input type="text" id="city" name="city" size="45">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="address">Address:</label>
+            </td>
+            <td>
+            <textarea cols="43" rows="5">
+
+            </textarea>
+            </td>
+            <tr>
+                <td></td>
+                <td><center>
+                    <button type="register">Register</button></center>
+                </td>
+            </tr>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
